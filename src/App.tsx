@@ -8,11 +8,11 @@ function App() {
     <Container > 
       <div className='main-section p-4'>
         <Row>
-          <div className='profileImg '>
+          <div className='profileImg mb-2'>
             <img src={profpic} alt='' id='profile_img'/>
           </div>
-          <div id='twitter'>
-            Osiroski
+          <div className='text-center' >
+            <text id='twitter'>Osiroski</text>
           </div>
         </Row>
 

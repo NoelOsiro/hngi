@@ -3,22 +3,3 @@
   margin-top:64px;
   
 }
-#profile_img{
-  margin: auto;
-  display: block;
-  width: 88px;
-  height: 88px;
-}
-#twitter{
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 30px;
-text-align: center;
-
-/* Gray/900 */
-
-color: #101828;
-
-}

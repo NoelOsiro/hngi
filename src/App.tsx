@@ -11,6 +11,9 @@ function App() {
           <div className='profileImg '>
             <img src={profpic} alt='' id='profile_img'/>
           </div>
+          <div id='twitter'>
+            Osiroski
+          </div>
         </Row>
 
       </div>

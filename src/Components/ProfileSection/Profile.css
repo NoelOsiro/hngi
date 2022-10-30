@@ -21,18 +21,27 @@
 }
 
 .avatar_share {
-    /* _Avatar share button */
-
-
     position: absolute;
     width: 40px !important;
     height: 40px;
     right: 352px;
     top: 44px;
     background: #FFFFFF;
-    /* Gray/300 */
     border: 1px dashed #D0D5DD;
     border-radius: 20px;
+}
+
+@media (max-width: 575.98px) {
+    .avatar_share {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        right: 22px;
+        top: 44px;
+        background: #FFFFFF;
+        border: 1px dashed #D0D5DD;
+        border-radius: 20px;
+    }
 }
 
 .share_06 {
@@ -41,18 +50,20 @@
     width: 20px;
     height: 20px;
 }
-#shareButton:hover{
+
+#shareButton:hover {
     cursor: pointer;
 }
 
 
 #Path_7587 .cls-2 {
-    stroke:  #98A2B3;
+    stroke: #98A2B3;
     font-weight: 400;
 }
+
 #Path_7587 .cls-2:hover {
     stroke: #667085;
     font-weight: 500;
     cursor: pointer;
-    
+
 }

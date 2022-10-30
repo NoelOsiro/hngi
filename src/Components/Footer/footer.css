@@ -15,9 +15,6 @@
 
 div.footer-content {
     box-sizing: border-box;
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -28,4 +25,31 @@ div.footer-content {
     /* Gray/200 */
 
     border-top: 1px solid #EAECF0;
+}
+
+@media (max-width: 575.98px) {
+    div.footer-content {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 32px 0px 0px;
+        gap: 16px;
+        margin-bottom: 0px;
+        border-top: 1px solid #EAECF0;
+    }
+
+    div.footer-text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #667085;
+
+    }
+    div.mt-5.p-3{
+        padding: 0!important;
+    }
 }

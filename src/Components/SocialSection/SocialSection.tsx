@@ -5,7 +5,7 @@ import Github from '../../assets/img/github.png';
 
 const SocialSection = () => {
     return (
-        <Row className='text-center mb-5'>
+        <Row className='text-center mb-3 mt-2'>
             <div>
                 <img src={Slack} alt='' width={25} height={25} />
                 <img className='ms-4' src={Github} alt='' width={25} height={25} />

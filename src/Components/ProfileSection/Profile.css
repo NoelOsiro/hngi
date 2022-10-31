@@ -1,3 +1,6 @@
+.profileImg{
+    width: 122px;
+}
 #profile_img {
     margin: auto;
     display: block;
@@ -5,6 +8,15 @@
     height: 88px;
     border-radius: 50%;
 }
+img#profile_img:hover {
+    cursor: pointer;
+}
+img#profile_img:focus {
+    
+    border: 5.5px solid #EBE9FE;
+    border-radius: 275px;
+}
+
 
 #twitter {
     font-family: 'Inter';

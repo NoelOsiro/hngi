@@ -1,5 +1,6 @@
-.profileImg{
+div.profileImg{
     width: 122px;
+    margin: auto;
 }
 #profile_img {
     margin: auto;
@@ -71,6 +72,10 @@ img#profile_img:focus {
 }
 
 @media (max-width: 575.98px) {
+    .profileImg{
+        width: 122px;
+        margin: auto;
+    }
     .avatar_share {
         display: flex;
         justify-content: center;

@@ -2,7 +2,7 @@ import React from 'react'
 import { Row } from 'reactstrap';
 import './Profile.css';
 import profpic from '../../assets/img/profpic.jpg';
-import { ReactComponent as IconMenu } from '../../assets/img/share.svg';
+import Avatar from './avatar';
 const ProfileSection = () => {
   return (
     <Row>
@@ -15,11 +15,7 @@ const ProfileSection = () => {
       <div className='text-center' hidden >
         <div id='slack'>Osiroski</div>
       </div>
-      <div className='avatar_share'>
-        <div className='share_06'>
-          <IconMenu id='shareButton' />
-        </div>
-      </div>
+      <Avatar/>
     </Row>
   )
 }

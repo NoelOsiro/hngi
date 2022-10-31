@@ -33,6 +33,30 @@
     border: 1px dashed #D0D5DD;
     border-radius: 20px;
 }
+.avatar_share:focus {
+    box-shadow: 0px 0px 0px 4px #F2F4F7;
+    border-radius: 20px;
+}
+.avatar_share > .shareButton{
+    background: url(/src/assets/img/share.svg) no-repeat 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:20px;
+    height: 20px;
+    background-size:100%;
+    margin-top:5px;
+}
+.avatar_share > .shareButton:hover{
+    background: url(/src/assets/img/sharehover.svg) no-repeat 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:20px;
+    height: 20px;
+    background-size:100%;
+    margin-top:5px;
+}
 
 @media (max-width: 575.98px) {
     .avatar_share {
@@ -48,9 +72,30 @@
         border: 1px dashed #D0D5DD;
         border-radius: 20px;
     }
+    .avatar_share > .shareButton{
+        background: url(/src/assets/img/moredefualt.svg) no-repeat 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:20px;
+        height: 20px;
+        background-size:100%;
+        margin-top:20px;
+    }
+    .avatar_share > .shareButton:hover{
+        background: url(/src/assets/img/moremobile.svg) no-repeat 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:20px;
+        height: 20px;
+        background-size:100%;
+        margin-top:20px;
+    }
 }
 .avatar_share:hover {
     cursor: pointer;
+    
 }
 
 

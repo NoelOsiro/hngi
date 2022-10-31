@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/hngi/static/css/main.e75d44ef.css",
-    "main.js": "/hngi/static/js/main.171fb42c.js",
+    "main.css": "/hngi/static/css/main.9373ddab.css",
+    "main.js": "/hngi/static/js/main.4d451c8d.js",
     "static/js/787.ba59df2b.chunk.js": "/hngi/static/js/787.ba59df2b.chunk.js",
     "static/media/slack.png": "/hngi/static/media/slack.a6c25cf781cc3e0b7751.png",
     "static/media/github.png": "/hngi/static/media/github.37aff07db8ca6d47d93a.png",
     "static/media/profpic.jpg": "/hngi/static/media/profpic.2e32ddf0986e1fe515da.jpg",
-    "static/media/share.svg": "/hngi/static/media/share.dba3017222278c2ba42e10b6f3ea1831.svg",
+    "static/media/moredefualt.svg": "/hngi/static/media/moredefualt.6939a531933a49e19b58.svg",
+    "static/media/moremobile.svg": "/hngi/static/media/moremobile.07bc2cd3b85798793c9e.svg",
     "index.html": "/hngi/index.html",
-    "main.e75d44ef.css.map": "/hngi/static/css/main.e75d44ef.css.map",
-    "main.171fb42c.js.map": "/hngi/static/js/main.171fb42c.js.map",
+    "static/media/share.svg": "/hngi/static/media/share.e3f81b496e21f13d5427.svg",
+    "static/media/sharehover.svg": "/hngi/static/media/sharehover.301554f2879fa5410706.svg",
+    "main.9373ddab.css.map": "/hngi/static/css/main.9373ddab.css.map",
+    "main.4d451c8d.js.map": "/hngi/static/js/main.4d451c8d.js.map",
     "787.ba59df2b.chunk.js.map": "/hngi/static/js/787.ba59df2b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e75d44ef.css",
-    "static/js/main.171fb42c.js"
+    "static/css/main.9373ddab.css",
+    "static/js/main.4d451c8d.js"
   ]
 }

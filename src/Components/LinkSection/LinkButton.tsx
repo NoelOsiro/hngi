@@ -9,7 +9,7 @@ import React from 'react'
  }
 const LinkButton:React.FC<Iprops> = (props:Iprops) => {
   return (
-    <a id={props.id} className='link' href={props.href} title={props.title}><span>{props.text}</span></a>
+    <a id={props.id} className='link' href={props.href} title={props.text}><span>{props.title}</span></a>
   )
 }
 
